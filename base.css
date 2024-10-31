@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Lora:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&family=Ysabeau+Office:ital,wght@0,1..1000;1,1..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Lora:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&family=Ysabeau+Office:ital,wght@0,1..1000;1,1..1000&display=swap');
+
+
+:root {
+
+
+    --font-family-h2: "Oswald";
+    --font-family-h5: "Lora";
+    --font-family-p: "Lora";
+    --font-family-h6: "Lora";
+
+
+
+    --font-size-h1: 200px;
+    --font-size-h2: 32px;
+    --font-size-menu: 32px;
+    --font-size-p: 20px;
+
+
+    --width: 1440px;
+    --height: 2670px;
+
+    --width-article: 480px;
+    --height-article: 1883px;
+
+    --width-main: 960px;
+    --height-main: 1883px;
+
+    --width-header: 525px;
+    --height-header: 667px;
+
+    --width-menu: 456px;
+    --height-menu: 667px;
+
+    --width-aside: 456px;
+    --height-aside: 667px;
+
+    --height-footer: 120px;
+
+
+    --img: 320px;
+
+    --padding-left: 10px;
+    --padding-text: 30px;
+}

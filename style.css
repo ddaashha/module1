@@ -1,0 +1,83 @@
+@import url("base.css");
+@import url("menu.css");
+@import url("header.css");
+@import url("aside.css");
+@import url("footer.css");
+@import url("article.css");
+@import url("main.css");
+@import url("reset.css");
+
+
+body {
+    background-color: #C6C6C1;
+    margin: auto;
+    max-width: var(--width);
+}
+
+.flex1,
+.flex2 {
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width: 650px) {
+
+    .flex1,
+    .flex2 {
+        flex-direction: column;
+    }
+
+    article {
+        order: 1;
+        width: 100%;
+
+        margin: 0 auto;
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+
+    main {
+        order: 2;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .section_article {
+        width: 100%;
+        margin: 0 auto;
+        padding: 20px 0;
+    }
+
+    h2 {
+        text-align: center;
+        font-size: 2em;
+    }
+
+    p {
+        text-align: justify;
+        margin: 10px 0;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+
+    menu,
+    aside {
+        width: 100%;
+
+        margin: 0 auto;
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+
+    footer p{
+        text-align: center;
+    }
+  
+
+
+}

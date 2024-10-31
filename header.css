@@ -1,0 +1,44 @@
+header {
+    position: relative;
+    width: var(--width--header);
+    height: var(--height-header);
+    text-align: center;
+    color: #134616;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+    flex-direction: column;
+
+}
+
+header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('image001.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: blur(8px);
+    z-index: -1;
+
+}
+
+header h1 {
+    padding-top: 250px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 94.85px;
+    letter-spacing: 9.6px;
+    color: rgba(19, 70, 22, 1);
+    margin: 0;
+    z-index: 1;
+}
+
